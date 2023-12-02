@@ -74,6 +74,18 @@ You can train and validate the model on CACD dataset by running:
 ```
 python Main.py --phase train --data_type cacd --data_path [path/to/cacd/images/ or ./datalists/CACD/images/] --checkpoint_path path/to/save/checkpoints --batch 64 --epochs 20 --seed 123
 ```
+## Cite
+If you find this work useful, please cite the following paper:
+```bibtex
+@INPROCEEDINGS{10316890,
+   author = {Amirullaeva, Sevara and Han, Ji-Hyeong},
+   booktitle={2023 23rd International Conference on Control, Automation and Systems (ICCAS)}, 
+   title = {Multi-Scale Similarity Learning for Age Estimation Based on Facial Images},
+   year = {2023},
+   pages={1874-1878},
+   doi={10.23919/ICCAS59377.2023.10316890}
+}
+```
 
 
 
