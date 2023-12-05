@@ -72,9 +72,9 @@ python Main.py --phase train --data_type utk --data_path [path/to/utk/images/ or
 ```
 You can train and validate the model on CACD dataset by running:
 ```
-python Main.py --phase train --data_type cacd --data_path [path/to/cacd/images/ or ./datalists/CACD/images/] --checkpoint_path path/to/save/checkpoints --batch 64 --epochs 20 --seed 123
+python Main.py --phase train --data_type cacd --data_path [path/to/cacd/images/ or ./datalists/CACD/images/] --checkpoint_path path/to/save/checkpoints --batch 64 --epochs 20 --seed 123 
 ```
-## Cite
+## Citing
 If you find this work useful, please cite the following paper:
 ```bibtex
 @INPROCEEDINGS{10316890,
