@@ -3,6 +3,11 @@
 
 This is the Pytorch implementation of the ICCAS 2023 paper, "[Multi-scale Similarity Learning for Age Estimation based on Facial Images](https://ieeexplore.ieee.org/document/10316890)".
 
+<p align="center">
+    <img src="images/architecture.png" width="700">
+</p>
+
+---
 
 ## Datasets
 - [UTKFace](https://susanqq.github.io/UTKFace/)
