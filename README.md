@@ -3,11 +3,11 @@
 
 This is the Pytorch implementation of the ICCAS 2023 paper, "[Multi-scale Similarity Learning for Age Estimation based on Facial Images](https://ieeexplore.ieee.org/document/10316890)".
 
-<p align="center">
-    <img src="images/architecture.png" width="700">
-</p>
+<p align="center"><img src="images/architecture.png" width="700"></p>
 
----
+## Paper
+
+In this paper we propose a similarity learning model for age estimation, called Multi-scale Similarity Learning. We employ a multi-scale feature extraction to our model and prove its ability to extract more reliable features for a similarity learning. The proposed single framework architecture is trained end-to-end to simultaneously learn feature similarities and age differences. The experiments showed that the proposed approach provides superior age estimation performances.
 
 ## Datasets
 - [UTKFace](https://susanqq.github.io/UTKFace/)
